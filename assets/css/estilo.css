@@ -3,9 +3,11 @@
 :root{
     --fonte-principal: 'Inter', sans-serif;
     --cor-fundo: #FFFFFF;
-    --cor1: #3A404E;
     --text-color: #667085;
-    --cor3: #8E2424;
+    --cor1: #3A404E;
+    --cor2: #8E2424;
+    --cor3: #101828;
+    --cor4: #667085;
 }
 
 *{

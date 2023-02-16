@@ -1,0 +1,27 @@
+.sobre-nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6rem 0px;
+    row-gap: 1.5rem;
+}
+
+.sobre__sub-titulo{
+    font-weight: 600;
+    color: var(--cor2);
+}
+
+.sobre__titulo{
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--cor3);
+}
+
+.sobre__texto{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-align: center;
+    color: var(--cor4);
+    max-width: 49.438rem ;
+}
