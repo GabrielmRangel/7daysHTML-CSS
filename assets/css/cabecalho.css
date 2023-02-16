@@ -5,6 +5,15 @@
     padding: 1.5rem 6rem;
 }
 
+.cabecalho__logo{
+    background-image: url("../img/worldwide.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 26.99px;
+}
+
 .cabecalho__logotipo{
     display: flex;
     justify-content: space-between;
