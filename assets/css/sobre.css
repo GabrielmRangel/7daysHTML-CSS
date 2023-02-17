@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-around;
     padding: 6rem 0px;
-    row-gap: 1.5rem;
 }
 
 .sobre__sub-titulo{
@@ -16,6 +15,7 @@
     font-weight: 600;
     font-size: 3rem;
     color: var(--cor3);
+    padding: 1rem 0 2rem;
 }
 
 .sobre__texto{
