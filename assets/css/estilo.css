@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url("cabecalho.css");
+@import url("sobre.css");
+@import url("metricas.css");
+@import url("vagas.css");
 
 :root{
     --fonte-principal: 'Inter', sans-serif;
     --cor-fundo: #FFFFFF;
     --text-color: #667085;
     --cor1: #3A404E;
-    --cor2: #8E2424;
-    --cor3: #101828;
-    --cor4: #667085;
+    --cor2: #101828;
+    --cor3: #8E2424;
+    --cor4: rgba(142, 36, 36, 0.05);
 }
 
 *{

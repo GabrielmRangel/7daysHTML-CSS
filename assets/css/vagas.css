@@ -1,0 +1,27 @@
+.vagas{
+    Padding: 5rem 0;
+    text-align: center;
+}
+
+.vagas__subtitulo{
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--cor3);
+    padding: 0.25rem 0.75rem;
+    background: var(--cor4);
+    border-radius: 16px;
+}
+
+.vagas__titulo{
+    margin: 1.25rem 0;
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: var(--cor2);
+}
+
+.vagas__texto{
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--text-color);     
+}

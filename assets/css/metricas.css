@@ -2,22 +2,24 @@
     padding: 0px 6rem 6rem;
     gap: 4rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .metricas__titulo{
     font-weight: 600;
     font-size: 3.75rem;
-    color: var(--cor2);
+    color: var(--cor3);
 }
 
 .metricas__subtitulo{
     padding: 1rem 0;
     font-weight: 500;
     font-size: 1.125rem;
-    color: var(--cor3);
+    color: var(--cor2);
 }
 
 .metricas__texto{
-    color: var(--cor4);
+    color: var(--text-color);
     max-width: 280px;
 }
