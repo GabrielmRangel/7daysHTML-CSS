@@ -1,0 +1,39 @@
+.depoimentos{
+    padding: 0 4rem 6rem 4rem;
+}
+
+.depoimentos__container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    background: var(--cor4);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.depoimentos__subtitulo{
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: var(--cor3);
+}
+
+.depoimento__texto{
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: var(--cor2);
+    margin: 1.5rem 0;
+}
+
+.depoimento__nome{
+    font-weight: 500;
+    color: var(--cor2);
+    margin: 1rem 0;
+}
+
+.depoimento__cargo{
+    font-size: 0.875rem;
+    color: var(--text-color);
+}
