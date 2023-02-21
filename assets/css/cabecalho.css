@@ -57,7 +57,7 @@
     background-color: var(--cor3);
     padding: 0.625rem 1.125rem;
     border-radius: 0.5rem;
-    border: 1px solid var( );
+    border: 1px solid var(--cor3);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     transition: all 0.2s linear;
     margin-left: 0.625rem;
@@ -67,4 +67,8 @@
     background-color: #751e1e;
     transform: scale(1.1);
     transition: all 0.2s linear;
+}
+
+.menu-hamburguer-input, .label-menu{
+    display: none;
 }

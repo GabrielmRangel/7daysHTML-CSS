@@ -4,6 +4,8 @@
 @import url("metricas.css");
 @import url("vagas.css");
 @import url("depoimentos.css");
+@import url("rodape.css");
+@import url("responsivo.css");
 
 :root{
     --fonte-principal: 'Inter', sans-serif;
@@ -14,6 +16,7 @@
     --cor3: #8E2424;
     --cor4: rgba(142, 36, 36, 0.05);
     --cor5: #EAECF0;
+    --cor6: #F9FAFB;
 }
 
 *{
