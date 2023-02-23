@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and(max-width: 1023px) {
     /* Cabeçalho */
     .cabecalho{
         position: relative;
@@ -31,6 +31,10 @@
         background-image: url("../img/menu-aberto.png");
     }
 
+    .cabecalho__nome{
+        display: none;
+    }
+
     .cabecalho__lista-menu{
         position: absolute;
         flex-direction: column;
@@ -47,7 +51,7 @@
     }
 
     .cabecalho__menu-item{
-        padding: 1rem 2rem;
+        padding: 1.5rem 2rem;
         background-color: var(--cor6);
     }
 
@@ -57,5 +61,70 @@
 
     .cabecalho__menu-item:hover > .cabecalho__menu-link{
         color: var(--cor-fundo);
+    }
+
+    /* Sobre */
+    .sobre-nos{
+        padding: 4rem 2rem;
+    }
+
+    /* Metricas */
+    .metricas{
+        padding: 4rem 2rem;
+    }
+
+    /* Vagas */
+    .vagas{
+        padding: 4rem 0;
+    }
+
+    .container__imagem{
+        padding: 0 2rem;
+        margin: 2rem 0;
+    }
+
+    .vagas-disponiveis{
+        margin: 2rem;
+    }
+
+    /* Depoimentos */
+    .depoimentos{
+        padding: 0 1rem 4rem;
+    }
+
+    .depoimentos__container{
+        padding: 2rem;
+    }
+
+    .depoimentos__subtitulo{
+        white-space: nowrap;
+    }
+
+    .depoimento__texto{
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
+    /* Rodape */
+    .rodape{
+        padding: 4rem 2rem;
+    }
+
+    .rodape__titulo{
+        font-size: 2rem;
+    }
+
+    .rodape__texto{
+        font-size: 1.1rem;
+    }
+
+    .rodape__formulario{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .input-email{
+        width: auto;
     }
 }
